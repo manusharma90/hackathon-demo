@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero/M&M Autonomous Predictive Service Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #d61821; /* Hero/M&M Red color */
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .main-content {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            color: #d61821;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .anomaly-frame {
+            border: 2px solid #d61821;
+            border-radius: 8px;
+            overflow: hidden;
+            height: 700px; /* Demo height set */
+            width: 100%;
+            box-shadow: 0 0 15px rgba(214, 24, 33, 0.5); /* Red shadow for attention */
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HERO/M&M Autonomous Service Platform</h1>
+        <nav>
+            <a href="#">Dashboard</a>
+            <a href="#">Fleet Health</a>
+            <a href="#">RCA/CAPA</a>
+            <a href="#" style="background-color: #333; padding: 5px 10px; border-radius: 4px;">Agent Security (UEBA)</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <h2 class="section-title">Master Agent Orchestration Console</h2>
+            
+            <p>Welcome, Master Agent. This console monitors real-time health and workflow of all Worker AI Agents. (Goal #1-7)</p>
+            
+            <h3 style="color: #000; margin-top: 30px;">Goal #8: Live UEBA Security Monitor (Critical Component)</h3>
+            <p style="font-weight: bold; color: #d61821;">
+                We use UEBA to detect when any Worker Agent deviates from its baseline behavior (e.g., Scheduling Agent trying to access telematics data). 
+                The live demo is running below.
+            </p>
+
+            <div class="anomaly-frame">
+                <iframe 
+                    src="[YAHAN APNA LIVE STREAMLIT LINK DAALO]" 
+                    title="Live AgentGuard UEBA Demo"
+                ></iframe>
+            </div>
+
+            <p style="margin-top: 20px; font-size: 14px; text-align: center; color: #777;">
+                **Note:** The embedded iFrame above showcases the live working UEBA model. The rest of the page is a UI Mockup.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
